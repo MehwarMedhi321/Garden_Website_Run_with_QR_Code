@@ -13,6 +13,7 @@
 ![image](https://github.com/MehwarMedhi321/Garden_Website_Run_with_QR_Code/assets/154052609/6f3a867d-6574-41bf-a7fb-d1e9b596d79e)
 ![image](https://github.com/MehwarMedhi321/Garden_Website_Run_with_QR_Code/assets/154052609/8aabaffa-14af-4fab-8a0e-c922297d53af)
 ![image](https://github.com/MehwarMedhi321/Garden_Website_Run_with_QR_Code/assets/154052609/01c535c4-95c0-49e2-b986-d561d1f6f55f)
+![image](https://github.com/MehwarMedhi321/Garden_Website_Run_with_QR_Code/assets/154052609/246cae3b-6485-4854-9145-739ef97fcab1)
 ![image](https://github.com/MehwarMedhi321/Garden_Website_Run_with_QR_Code/assets/154052609/1a8b2499-379d-45c9-81dd-9cc9ace02a7b)
 ![image](https://github.com/MehwarMedhi321/Garden_Website_Run_with_QR_Code/assets/154052609/8a9f6695-7bfe-4b57-8eff-d6366a902e53)
 ![image](https://github.com/MehwarMedhi321/Garden_Website_Run_with_QR_Code/assets/154052609/b6e04e13-bfc8-4584-bedf-bb50267bcc76)
