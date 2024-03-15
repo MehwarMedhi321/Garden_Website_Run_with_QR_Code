@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  background-color: #8cbd49;
+}
+
+.container {
+  padding: 20px;
+  width: 700px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  animation: topZoom 1s forwards;
+
+}
+
+@keyframes topZoom {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Switch {
+  position: absolute;
+  top: 20px;
+  left: 80%;
+}
+
+
+.Switch .English {
+  background-color: #8cbd49;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.Switch a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.English:hover {
+  background-color: transparent;
+  border: 3px solid #8cbd49;
+  color: black;
+}
+
+.box {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h3 {
+  font-size: 2rem;
+  margin: 17px;
+}
+
+.name {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.name i {
+  position: absolute;
+  top: 50%;
+  left: 94%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #bbb;
+}
+
+.name input {
+  width: 100%;
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: #eee;
+  border-radius: 40px;
+}
+
+.name input::placeholder {
+  color: #bbb;
+  font-weight: 500;
+}
+
+.Email {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.Email i {
+  position: absolute;
+  top: 50%;
+  left: 94%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #bbb;
+}
+
+.Email input {
+  width: 100%;
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: #eee;
+  border-radius: 40px;
+}
+
+.Email input::placeholder {
+  color: #bbb;
+  font-weight: 500;
+}
+
+
+.mobile {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.mobile i {
+  position: absolute;
+  top: 50%;
+  left: 94%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #bbb;
+}
+
+.mobile input {
+  width: 100%;
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: #eee;
+  border-radius: 40px;
+}
+
+.mobile input::placeholder {
+  color: #bbb;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.message-box {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.message-box i {
+  position: absolute;
+  top: 30px;
+  left: 94%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #bbb;
+}
+
+.message-box textarea {
+  width: 100%;
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: #eee;
+  border-radius: 40px;
+}
+
+.message-box textarea::placeholder {
+  color: #bbb;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.button {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 20px;
+  /* margin: 3%; */
+}
+
+.button button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #8cbd49;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+.message {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+@keyframes buttons {
+  0% {
+    transform: scale(0.1);
+  }
+
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 92%;
+    padding: 15px;
+  }
+
+
+  .box h3 {
+    padding-top: 7%;
+    font-size: 30px;
+  }
+
+  .input-container input,
+  .input-container textarea {
+    padding: 10px;
+  }
+
+  .button button {
+    padding: 8px 16px;
+    font-size: 18px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Switch {
+    top: 10px;
+    left: 70%;
+
+  }
+
+  .Switch .English {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .name i,
+  .Email i,
+  .mobile i,
+  .message-box i {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .name i,
+  .Email i,
+  .mobile i,
+  .message-box i {
+    font-size: 18px;
+
+    left: 91%;
+
+  }
+}
